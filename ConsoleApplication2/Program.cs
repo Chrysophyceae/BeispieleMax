@@ -17,6 +17,7 @@ namespace ConsoleApplication2
             Console.WriteLine("Rechteck1: " + objectVonRechteckService.BerechneFlaeche(objekt1VonRechteck));
             Console.WriteLine("Rechteck2: " + objectVonRechteckService.BerechneFlaeche(objekt2VonRechteck));
 
+            //nur damit das Programm nicht gleich beendet wird
             Console.ReadLine();
         }
     }
